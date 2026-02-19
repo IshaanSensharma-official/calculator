@@ -14,7 +14,8 @@
 
     <button onclick="add()">Add</button>
     <button onclick="subtract()">Subtract</button>
-
+    <button onclick="multiply()">Multiply</button>
+    
     <script>
     function add() {
     let a = Number(document.getElementById("num1").value);
@@ -28,6 +29,14 @@ function subtract() {
     let a = Number(num1.value);
     let b = Number(num2.value);
     result.innerText = "Result: " + (a - b);
+}
+</script>
+
+<script>
+function multiply() {
+    let a = Number(num1.value);
+    let b = Number(num2.value);
+    result.innerText = "Result: " + (a * b);
 }
 </script>
 
