@@ -13,12 +13,21 @@
     <input type="number" id="num2" placeholder="Number 2">
 
     <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
 
     <script>
     function add() {
     let a = Number(document.getElementById("num1").value);
     let b = Number(document.getElementById("num2").value);
     document.getElementById("result").innerText = "Result: " + (a + b);
+}
+</script>
+
+<script>
+function subtract() {
+    let a = Number(num1.value);
+    let b = Number(num2.value);
+    result.innerText = "Result: " + (a - b);
 }
 </script>
 
